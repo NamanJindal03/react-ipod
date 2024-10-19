@@ -92,3 +92,35 @@
 .menuTitle{
     height: 20%;
 }
+
+/* Music Component */
+.songScreen{
+    padding: 25px 5px 10px 5px;
+    display: flex;
+}
+.songDetails{
+    display: flex;
+    justify-content: space-between;
+
+}
+.songBoxContainer{
+    width: 45%;
+    height: 70%;
+}
+.progress-container{
+    width: 90%;
+    min-width: 270px;
+    background-color: grey;
+    position: relative;
+    height: 16px;
+}
+.progress-bar{
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    height: 16px;
+}
+.song-progress-time{
+    display: flex;
+    justify-content: space-between;
+}
